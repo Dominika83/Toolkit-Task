@@ -1,0 +1,23 @@
+<div class="header">
+    <div class="container header__bg">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="photo">
+                    <ng-content select="[photo]"></ng-content>
+                </div>
+                <p class="animated slideInLeft" style="text-align: left">//To jest przykładowe zdjęcie//</p>
+            </div>
+            <div class="col-md-8">
+                <div class="title animated slideInRight">
+                    <ng-content select="[title]"></ng-content>
+                </div>
+                <div class="text animated slideInRight">
+                    <ng-content select="[text]"></ng-content>
+                </div>
+                <div class="other_text animated slideInRight">
+                    <ng-content select="[other_text]"></ng-content>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,eAAgB;EACd,aAAa,EAAE,IAAI;;AAGrB,oBAAqB;EACnB,UAAU,EAAE,IAAI",
+"sources": ["tables.scss"],
+"names": [],
+"file": "tables.css"
+}

@@ -1,0 +1,8 @@
+@import url(animate.css);
+.table thead th {
+  border-bottom: none; }
+
+.table th, .table td {
+  border-top: none; }
+
+/*# sourceMappingURL=styles.css.map */

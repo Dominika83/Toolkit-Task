@@ -1,0 +1,29 @@
+.header {
+  padding: 80px;
+
+  img {
+    width: 100%;
+  }
+
+  .header__bg {
+    background: #3947B6;
+  }
+
+  .title {
+    padding: 50px 0px 20px 0px;
+    color: #DFDFDF;
+  }
+  .photo {
+    padding: 50px 0px 20px 0px;
+  }
+  .text, .other_text {
+    padding: 20px 0px 20px 0px;
+    color: #DFDFDF;
+  }
+
+  p {
+    color: red;
+    font-weight: bold;
+  }
+
+}

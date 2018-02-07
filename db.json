@@ -1,0 +1,262 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "category": "Book",
+      "title": "HTML and CSS: Design and Build Websites",
+      "author": {
+        "firstName": "Jon",
+        "surname": "Duckett"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2014-01-23",
+      "bestseller": true
+    },
+    {
+      "id": 2,
+      "category": "Book",
+      "title": "The Essential Guide to HTML5.",
+      "author": {
+        "firstName": "Jeanine",
+        "surname": "Meyer"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2012-08-23",
+      "bestseller": false
+    },
+    {
+      "id": 3,
+      "category": "Book",
+      "title": "Angular 2 Development with TypeScript",
+      "author": {
+        "firstName": "Yakov",
+        "surname": "Fain"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2017-01-23",
+      "bestseller": false
+    },
+    {
+      "id": 4,
+      "category": "Book",
+      "title": "JavaScript and JQuery",
+      "author": {
+        "firstName": "Jon",
+        "surname": "Duckett"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2015-01-23",
+      "bestseller": true
+    },
+    {
+      "id": 5,
+      "category": "Book",
+      "title": "JavaScript and JQuery",
+      "author": {
+        "firstName": "Jon",
+        "surname": "Duckett"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2015-01-23",
+      "bestseller": true
+    }
+  ],
+  "ebooks": [
+    {
+      "id": 1,
+      "category": "Ebook",
+      "title": "Sass. Nowoczesne arkusze stylow",
+      "author": {
+        "firstName": "Bartosz",
+        "surname": "Chucherko"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2017-01-23",
+      "bestseller": true
+    },
+    {
+      "id": 2,
+      "category": "Ebook",
+      "title": "MySQL",
+      "author": {
+        "firstName": "Paul",
+        "surname": "DuBois"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2014-08-23",
+      "bestseller": false
+    },
+    {
+      "id": 3,
+      "category": "Ebook",
+      "title": "Build an HTML5 Game",
+      "author": {
+        "firstName": "Karl",
+        "surname": "Bunyan"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2017-01-23",
+      "bestseller": false
+    },
+    {
+      "id": 4,
+      "category": "Ebook",
+      "title": "JavaScript and JQuery",
+      "author": {
+        "firstName": "Jon",
+        "surname": "Duckett"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2015-01-23",
+      "bestseller": false
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "category": "Blog",
+      "title": "Poznaj Programowanie",
+      "bestseller": true
+    },
+    {
+      "id": 2,
+      "category": "Blog",
+      "title": "Wake up and Code",
+      "bestseller": false
+    },
+    {
+      "id": 3,
+      "category": "Blog",
+      "title": "Fly Nerd",
+      "bestseller": false
+    },
+    {
+      "id": 4,
+      "category": "Blog",
+      "title": "Devcorner",
+      "bestseller": false
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "category": "Course",
+      "title": "Angular 5",
+      "author": {
+        "firstName": "Milosz",
+        "surname": "Piechocki"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2018-01-23",
+      "bestseller": true
+    },
+    {
+      "id": 2,
+      "category": "Course",
+      "title": "Wordpress",
+      "author": {
+        "firstName": "Wojciech",
+        "surname": "Bielak"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2015-08-23",
+      "bestseller": false
+    },
+    {
+      "id": 3,
+      "category": "Course",
+      "title": "Angular 5",
+      "author": {
+        "firstName": "Milosz",
+        "surname": "Piechocki"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2018-01-23",
+      "bestseller": true
+    },
+    {
+      "id": 4,
+      "category": "Course",
+      "title": "Angular 5",
+      "author": {
+        "firstName": "Milosz",
+        "surname": "Piechocki"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2018-01-23",
+      "bestseller": true
+    }
+  ],
+  "schools": [
+    {
+      "id": 1,
+      "category": "School",
+      "name": "CodersLab",
+      "direction": "JS Developer",
+      "type": "extramural",
+      "bestseller": true
+    },
+    {
+      "id": 2,
+      "category": "School",
+      "name": "AKademia 108",
+      "direction": "Frontend Developer",
+      "type": "evening",
+      "bestseller": false
+    },
+    {
+      "id": 3,
+      "category": "School",
+      "name": "Codeskills",
+      "direction": "Frontend Developer",
+      "type": "evening",
+      "bestseller": false
+    },
+    {
+      "id": 4,
+      "category": "School",
+      "name": "Kodilla",
+      "direction": "Frontend Developer",
+      "type": "extramural",
+      "bestseller": true
+    }
+  ],
+  "english": [
+    {
+      "id": 1,
+      "category": "EnglishPosition",
+      "title": "Angielski dla specjalistow IT - kurs video ",
+      "author": {
+        "firstName": "Anna",
+        "surname": "Lewoc"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2017-01-23",
+      "bestseller": true
+    },
+    {
+      "id": 2,
+      "category": "EnglishPosition",
+      "title": "English for IT - book",
+      "author": {
+        "firstName": "Beata",
+        "surname": "Blaszczyk"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2014-08-23",
+      "bestseller": false
+    },
+    {
+      "id": 3,
+      "category": "EnglishPosition",
+      "title": "English for IT - ebook",
+      "author": {
+        "firstName": "Beata",
+        "surname": "Blaszczyk"
+      },
+      "publishing": "Helion",
+      "dateRelease": "2017-01-23",
+      "bestseller": false
+    }
+  ]
+}

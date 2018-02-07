@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEQ,wBAAa;ACDrB,eAAgB;EACd,aAAa,EAAE,IAAI;;AAGrB,oBAAqB;EACnB,UAAU,EAAE,IAAI",
+"sources": ["styles.scss","assets/style/tables.scss"],
+"names": [],
+"file": "styles.css"
+}

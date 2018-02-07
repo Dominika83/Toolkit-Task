@@ -1,0 +1,146 @@
+<section id="main">
+    <img src="../../../assets/images/Shape1@1x.svg" class="shape_1">
+    <img src="../../../assets/images/Shape2@1x.svg" class="shape_2">
+
+    <div class="container tables">
+        <div class="row table__top">
+            <div class="col-md-4 table__top-box">
+                <table *ngIf="books && books.length > 0; else noBooks" class="table">
+                    <thead>
+                    <tr>
+                        <th class="animated slideInDown">Books</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tables__size fbbox table_search">
+                    <tr *ngFor="let book of books; let i = index">
+                        <td [ngClass]="{'bestseller': book.isBestseller}" [routerLink]="['/books', book.id]"
+                            class="animated slideInDown enter-details">
+                            &bull;&nbsp;&nbsp;{{ book?.title }}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4 table__top-box">
+                <table *ngIf="ebooks && ebooks.length > 0; else noEbooks" class="table">
+                    <thead>
+                    <tr>
+                        <th class="animated slideInDown">Ebooks</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tables__size table_search">
+                    <tr *ngFor="let ebook of ebooks; let i = index">
+                        <td [ngClass]="{'bestseller': ebook.isBestseller}"
+                            [routerLink]="['/ebooks', ebook.id]" class="animated slideInDown enter-details">
+                            &bull;&nbsp;&nbsp;{{ ebook?.title }}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4 table__top-box">
+                <table *ngIf="blogs && blogs.length > 0; else noBlogs" class="table">
+                    <thead>
+                    <tr>
+                        <th class="animated slideInDown">Blogs</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tables__size">
+                    <tr *ngFor="let blog of blogs; let i = index">
+                        <td [ngClass]="{'bestseller': blog.isBestseller}"
+                            [routerLink]="['/blogs', blog.id]" class="animated slideInDown enter-details">
+                            &bull;&nbsp;&nbsp;{{ blog?.title }}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row table__bottom">
+            <div class="col-md-4 table__top-box">
+                <table *ngIf="courses && courses.length > 0; else noCourses" class="table">
+                    <thead>
+                    <tr>
+                        <th class="animated slideInUp">Courses</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tables__size">
+                    <tr *ngFor="let course of courses; let i = index">
+                        <td [ngClass]="{'bestseller': course.isBestseller}"
+                            [routerLink]="['/courses', course.id]"
+                            class="animated slideInUp enter-details">
+                            &bull;&nbsp;&nbsp;{{ course?.title }}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4 table__top-box">
+                <table *ngIf="schools && schools.length > 0; else noSchools" class="table">
+                    <thead>
+                    <tr>
+                        <th class="animated slideInUp">Schools</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tables__size">
+                    <tr *ngFor="let school of schools; let i = index">
+                        <td [ngClass]="{'bestseller': school.isBestseller}"
+                            [routerLink]="['/schools', school.id]"
+                            class="animated slideInUp enter-details">
+                            &bull;&nbsp;&nbsp;{{ school?.name }}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4 table__top-box">
+                <table *ngIf="english && english.length > 0; else noEnglish" class="table">
+                    <thead>
+                    <tr>
+                        <th class="animated slideInUp">English</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tables__size">
+                    <tr *ngFor="let englishPosition of english; let i = index">
+                        <td [ngClass]="{'bestseller': englishPosition.isBestseller}"
+                            [routerLink]="['/english', englishPosition.id]"
+                            class="animated slideInUp enter-details">
+                            &bull;&nbsp;&nbsp;{{ englishPosition?.title }}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <ng-template #noBooks>
+                    <div class="no__info"> Here is the category of books. Unfortunately, we currently have no position.
+                    </div>
+                </ng-template>
+                <ng-template #noEbooks>
+                    <div class="no__info"> Here is the category of ebooks. Unfortunately, we currently have no position.
+                    </div>
+                </ng-template>
+                <ng-template #noBlogs>
+                    <div class="no__info"> Here is the category of blogs. Unfortunately, we currently have no position.
+                    </div>
+                </ng-template>
+                <ng-template #noCourses>
+                    <div class="no__info"> Here is the category of courses. Unfortunately, we currently have no
+                        position.
+                    </div>
+                </ng-template>
+                <ng-template #noSchools>
+                    <div class="no__info"> Here is the category of schools. Unfortunately, we currently have no
+                        position.
+                    </div>
+                </ng-template>
+                <ng-template #noEnglish>
+                    <div class="no__info"> Here is the category of English positions.
+                        Unfortunately, we currently have no position.
+                    </div>
+                </ng-template>
+
+            </div>
+        </div>
+    </div>
+</section>

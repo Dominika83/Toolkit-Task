@@ -1,0 +1,19 @@
+.header {
+  padding: 80px; }
+  .header img {
+    width: 100%; }
+  .header .header__bg {
+    background: #3947B6; }
+  .header .title {
+    padding: 50px 0px 20px 0px;
+    color: #DFDFDF; }
+  .header .photo {
+    padding: 50px 0px 20px 0px; }
+  .header .text, .header .other_text {
+    padding: 20px 0px 20px 0px;
+    color: #DFDFDF; }
+  .header p {
+    color: red;
+    font-weight: bold; }
+
+/*# sourceMappingURL=header.component.css.map */
